@@ -1,0 +1,161 @@
+/* styles.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color); /* Set default background color */
+    color: var(--text-color);
+  }
+
+:root {
+    --primary-color: #1a6881;
+    --secondary-color: #2e8bc0;
+    --accent-color: #3cbfbb;
+    --background-color: #b2e6e9;
+    --text-color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+
+/* ... your previous styles ... */
+
+/* Testimonials */
+.content {
+    padding: 20px;
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Remove margin */
+  }
+
+.content-container {
+    flex: 1; /* Take up remaining vertical space */
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials {
+  background-color: var(--background-color);
+  padding: 40px 0;
+  text-align: center;
+}
+  
+.testimonial {
+    background-color: var(--accent-color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Address and Footer */
+  .address {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    
+  }
+  
+  /* Video Panel */
+  .video-panel {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 40px 0;
+    background-color: var(--accent-color); /* Add background color */
+    padding: 30px;
+    height: auto;
+  }
+  
+  .video {
+    flex: 70%;
+    max-width: 70%;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .video iframe {
+    position: absolute;
+    width: 100%; /* Make the video width 100% */
+    height: 100%; /* Make the video height 100% */
+    top: 0;
+    left: 0;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+  }
+
+  .description {
+    flex: 30%;
+    padding: 20px;
+    background-color: var(--accent-color);
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+
+/* ... your previous styles ... */
+
+/* Top Panel Bar */
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Add a z-index to ensure it's above other content */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-item span {
+    margin-left: 5px;
+  }
+  
+  /* ... your previous styles ... */
+  
+.menu-item svg {
+font-size: 18px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+
