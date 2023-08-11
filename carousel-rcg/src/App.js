@@ -34,13 +34,13 @@ function App() {
               transitionTime={1000} // Set transition time for the crossfade effect
               infiniteLoop={true}>
               <div>
-                <img src="/img/theguyiswatching.webp" alt="Carousel Slide 1" />
+                <img src="img/theguyiswatching.webp" alt="Carousel Slide 1" />
               </div>
               <div>
-                <img src="/img/vendors.webp" alt="Carousel Slide 2" />
+                <img src="img/vendors.webp" alt="Carousel Slide 2" />
               </div>
               <div>
-                <img src="/img/minipeople.webp" alt="Carousel Slide 3" />
+                <img src="img/minipeople.webp" alt="Carousel Slide 3" />
               </div>
             </Carousel>
           </div>
